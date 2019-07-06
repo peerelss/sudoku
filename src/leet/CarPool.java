@@ -1,7 +1,6 @@
 package leet;
 
 public class CarPool {
-    private int ca;
 
     public static void main(String[] args) {
         int[][] trips = {{3, 2, 7}, {3, 7, 9}, {8, 3, 9}};
@@ -12,7 +11,6 @@ public class CarPool {
     public static boolean carPooling(int[][] trips, int capacity) {
         int[] cars = new int[1000];
         for (int i = 0; i < trips.length; i++) {
-
             for (int k = trips[i][1]; k < trips[i][2]; k++) {
                 cars[k] = cars[k] + trips[i][0];
                 if (cars[k] > capacity) {
