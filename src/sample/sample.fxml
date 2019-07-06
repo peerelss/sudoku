@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TextField fx:id="tf00" prefHeight="25.0" prefWidth="56.0" />
+      <TextField fx:id="tf01" text="4" GridPane.columnIndex="1" />
+      <TextField fx:id="tf02" text="3" GridPane.columnIndex="2" />
+      <TextField fx:id="tf03" text="6" GridPane.columnIndex="3" />
+      <TextField fx:id="tf04" text="9" GridPane.columnIndex="4" />
+      <TextField fx:id="tf05" text="2" GridPane.columnIndex="5" />
+      <TextField fx:id="tf06" GridPane.columnIndex="6" />
+      <TextField fx:id="tf07" text="8" GridPane.columnIndex="7" />
+      <TextField fx:id="tf08" text="7" GridPane.columnIndex="8" />
+      <Button fx:id="button_1" mnemonicParsing="false" onAction="#buttonClick" text="Button" GridPane.rowIndex="9" />
+      <TextField fx:id="tf10" text="7" GridPane.rowIndex="1" />
+      <TextField fx:id="tf11" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <TextField fx:id="tf12" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextField fx:id="tf13" text="5" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <TextField fx:id="tf14" text="4" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <TextField fx:id="tf15" text="8" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <TextField fx:id="tf16" text="3" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <TextField fx:id="tf17" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+      <TextField fx:id="tf18" text="2" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+      <TextField fx:id="tf20" text="5" GridPane.rowIndex="2" />
+      <TextField fx:id="tf21" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <TextField fx:id="tf22" text="8" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <TextField fx:id="tf23" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <TextField fx:id="tf24" text="7" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <TextField fx:id="tf25" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <TextField fx:id="tf26" text="4" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <TextField fx:id="tf27" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+      <TextField fx:id="tf28" text="9" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+      <TextField fx:id="tf30" text="2" GridPane.rowIndex="3" />
+      <TextField fx:id="tf31" text="6" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <TextField fx:id="tf32" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <TextField fx:id="tf33" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <TextField fx:id="tf34" text="3" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <TextField fx:id="tf35" text="5" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <TextField fx:id="tf36" text="1" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <TextField fx:id="tf37" text="7" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+      <TextField fx:id="tf38" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+      <TextField fx:id="tf40" text="4" GridPane.rowIndex="4" />
+      <TextField fx:id="tf41" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <TextField fx:id="tf42" text="5" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <TextField fx:id="tf43" text="8" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <TextField fx:id="tf44" text="6" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <TextField fx:id="tf45" text="7" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <TextField fx:id="tf46" text="9" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <TextField fx:id="tf47" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+      <TextField fx:id="tf48" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+      <TextField fx:id="tf50" GridPane.rowIndex="5" />
+      <TextField fx:id="tf51" text="3" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <TextField fx:id="tf52" text="7" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <TextField fx:id="tf53" text="2" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <TextField fx:id="tf54" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <TextField fx:id="tf55" text="9" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <TextField fx:id="tf56" text="6" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <TextField fx:id="tf57" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+      <TextField fx:id="tf58" text="4" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+      <TextField fx:id="tf60" text="9" GridPane.rowIndex="6" />
+      <TextField fx:id="tf61" text="8" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <TextField fx:id="tf62" text="2" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <TextField fx:id="tf63" text="3" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <TextField fx:id="tf64" text="5" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <TextField fx:id="tf65" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <TextField fx:id="tf66" text="7" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <TextField fx:id="tf67" text="4" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+      <TextField fx:id="tf68" text="6" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+      <TextField fx:id="tf70" GridPane.rowIndex="7" />
+      <TextField fx:id="tf71" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <TextField fx:id="tf72" text="4" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+      <TextField fx:id="tf73" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+      <TextField fx:id="tf74" text="8" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <TextField fx:id="tf75" text="6" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <TextField fx:id="tf76" text="2" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+      <TextField fx:id="tf77" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+      <TextField fx:id="tf78" text="1" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+      <TextField fx:id="tf80" text="6" GridPane.rowIndex="8" />
+      <TextField fx:id="tf81" text="7" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+      <TextField fx:id="tf82" text="1" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+      <TextField fx:id="tf83" text="9" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+      <TextField fx:id="tf84" text="2" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+      <TextField fx:id="tf85" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+      <TextField fx:id="tf86" text="8" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+      <TextField fx:id="tf87" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+      <TextField fx:id="tf88" text="5" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+      <Button mnemonicParsing="false" onAction="#startButtonClick" text="Button" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+   </children>
+</GridPane>
